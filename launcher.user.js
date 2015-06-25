@@ -812,8 +812,8 @@ console.log("Running Bot Launcher!");
     bestTime = Math.max(nbSeconds, bestTime);
 
     var debugStrings = [];
-    debugStrings.push("T - Bot: " + (!toggle ? "On" : "Off"));
-    debugStrings.push("R - Lines: " + (!toggleDraw ? "On" : "Off"));
+    debugStrings.push("t" + (!toggle ? "." : ","));
+    debugStrings.push("r" + (!toggleDraw ? "." : ","));
     debugStrings.push("Server: " + serverIP);
     debugStrings.push("Survived for: " + nbSeconds + " seconds");
 
